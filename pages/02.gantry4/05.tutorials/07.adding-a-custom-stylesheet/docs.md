@@ -14,15 +14,17 @@ The Gantry template comes with structured CSS rules and properties which are com
 
 Step 1: Adding Your Custom CSS File
 -----------------------------------
-To create a custom CSS file, you just have to create a new css file at `/templates/[TEMPLATE]/css/` and name it **[TEMPLATE]-custom.css**. The new custom CSS file will automatically get loaded by the Gantry framework.
+To create a custom CSS file, you just have to create a new css file. The new custom CSS file will automatically get loaded by the Gantry framework. See the file appropriate naming and path with the corresponding platform below (i.e., Joomla, WordPress). 
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
+Create a file at `/templates/[TEMPLATE]/css/` and name it **[TEMPLATE]-custom.css**. 
 
 ![](template-custom-css.jpg)  {.border .shadow}
 
 [/ui-tab]
 [ui-tab title="WordPress"]
+Create a file at `/themes/[THEME]/css/` and name it **[THEME]-custom.css**. 
 
 ![](template-custom-css_wp.jpg)  {.border .shadow}
 
